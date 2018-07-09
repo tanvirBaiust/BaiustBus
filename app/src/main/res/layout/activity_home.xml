@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.example.tanvir.baiustbus.HomeActivity">
+
+    <ViewFlipper
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/v_flipper"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_background1"
+        android:onClick="TeacherBusesActivity"
+        android:layout_marginLeft="20dp"
+        android:text="TEACHER BUS"
+        android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/button_background1"
+        android:onClick="goBusesActivity"
+        android:text="STUDENT BUS"
+        android:textSize="12dp" />
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button5"
+        android:layout_alignTop="@+id/button"
+        android:background="@drawable/button_background1"
+        android:onClick="dataBuseActivity"
+        android:text="Admin"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button5"
+        android:layout_alignStart="@+id/button4"
+        android:background="@drawable/button_background1"
+        android:text="About"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="17dp"
+        android:background="@drawable/button_background1"
+        android:onClick="InterCampus"
+        android:text="InterCampus Bus"
+        android:textSize="11dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button2"
+        android:layout_marginEnd="51dp"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/button_background1"
+        android:text="Help"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

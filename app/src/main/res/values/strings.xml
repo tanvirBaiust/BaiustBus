@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Baiust Bus</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="userName_text">User Name</string>
+    <string name="password_text">Password</string>
+    <string name="attempts_text">attempts:</string>
+    <string name="login_Button">login</string>
+</resources>
